@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/weather_in_your_city/static/js/main.36e6ae68.chunk.js",
+    "main.js.map": "/weather_in_your_city/static/js/main.36e6ae68.chunk.js.map",
+    "runtime-main.js": "/weather_in_your_city/static/js/runtime-main.cc4c20f7.js",
+    "runtime-main.js.map": "/weather_in_your_city/static/js/runtime-main.cc4c20f7.js.map",
+    "static/js/2.ed747dcf.chunk.js": "/weather_in_your_city/static/js/2.ed747dcf.chunk.js",
+    "static/js/2.ed747dcf.chunk.js.map": "/weather_in_your_city/static/js/2.ed747dcf.chunk.js.map",
+    "index.html": "/weather_in_your_city/index.html",
+    "static/js/2.ed747dcf.chunk.js.LICENSE.txt": "/weather_in_your_city/static/js/2.ed747dcf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc4c20f7.js",
+    "static/js/2.ed747dcf.chunk.js",
+    "static/js/main.36e6ae68.chunk.js"
+  ]
+}
