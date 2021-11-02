@@ -4,6 +4,9 @@ import { useState } from 'react';
 
 function App() 
 {
+  const REACT_APP_KEY="e751ea9cf5bc4fcbbb3225428211810";
+  const REACT_APP_BASE_URL="http://api.weatherapi.com/v1/";
+  
   const state_posible_to_system =
   {
     STANDY_BY : 1,
@@ -31,7 +34,7 @@ function App()
   const handleSearch = () => {
 
     fetch(
-      `${process.env.REACT_APP_BASE_URL}current.json?key=${process.env.REACT_APP_KEY}&q=${city}&lang=pt`
+      `${REACT_APP_BASE_URL}current.json?key=${REACT_APP_KEY}&q=${city}&lang=pt`
     )
       .then((res) => {
         if (res.status === 200) 
