@@ -57,7 +57,10 @@ function App()
       .then((data) => {
         //console.log(data);
         setWeatherForecast(data);
-      });
+      })
+      .then( err => {
+        alert("Erro na API");
+      })
   };
 
   return (
