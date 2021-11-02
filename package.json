@@ -2,6 +2,11 @@
   "name": "consultatempo",
   "plan" : "web",
   "version": "0.2.0",
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x",
+    "yarm": "1.x"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
